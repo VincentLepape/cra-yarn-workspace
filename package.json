@@ -1,0 +1,17 @@
+{
+  "name": "cra-yarn-workspace",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/react-scripts",
+      "**/react-scripts/**",
+      "**/xyz-library",
+      "**/xyz-library/**"
+    ]
+  },
+  "devDependencies": {
+  }
+}
