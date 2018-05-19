@@ -1,5 +1,1 @@
-import Test from 'Test'
-
-module.exports = {
-    Test
-};
+export * from './Test';
