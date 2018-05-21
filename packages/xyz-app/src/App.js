@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 // Tried several different ways trying to import and all fail
-import Test from 'xyz-library/Test';
+import { Test } from 'xyz-library';
 
 class App extends Component {
   render() {
